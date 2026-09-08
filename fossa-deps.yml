@@ -1,0 +1,13 @@
+referenced-dependencies:
+  - type: npm
+    name: lodash
+    version: 4.17.21
+  - type: npm
+    name: core7341-fake-dep-alpha
+    version: 9.9.9
+  - type: npm
+    name: core7341-fake-dep-beta
+    version: 9.9.9
+  - type: npm
+    name: core7341-fake-dep-gamma
+    version: 9.9.9
