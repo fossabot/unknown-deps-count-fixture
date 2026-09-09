@@ -6,6 +6,7 @@
     "lodash": "^4.17.21",
     "core7341-fake-dep-alpha": "^9.9.9",
     "core7341-fake-dep-beta": "^9.9.9",
-    "core7341-fake-dep-gamma": "^9.9.9"
+    "core7341-fake-dep-gamma": "^9.9.9",
+    "@isaacs/string-locale-compare": "^1.1.0"
   }
 }
