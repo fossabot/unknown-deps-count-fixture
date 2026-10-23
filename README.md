@@ -1,4 +1,6 @@
 # unknown-deps-count-fixture
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftest-vcs-org%2Funknown-deps-count-fixture.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftest-vcs-org%2Funknown-deps-count-fixture?ref=badge_shield)
+
 
 Fixture repo for **CORE-7341**: a revision's cached `dependency_count` under-reports the
 total when the revision has unknown (unresolvable) dependencies.
@@ -25,3 +27,7 @@ The cached count is written at `modules/DependencyManager/setDeepDependencies.ts
 `postOverwriteLocks.length`, where all unreachable dependencies collapse into a single
 `locator: 'NULL'` row. Note the wrong value self-heals if an issue scan runs after the
 revision reaches steady state, so check the DB value right after the build finishes.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftest-vcs-org%2Funknown-deps-count-fixture.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftest-vcs-org%2Funknown-deps-count-fixture?ref=badge_large)
